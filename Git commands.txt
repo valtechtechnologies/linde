@@ -1,0 +1,23 @@
+GIT Commands
+======================================================
+cd ~/Desktop/
+mkdir git-practice-commands
+cd git-practice-commands/
+git init----------------------Initialized empty Git repository
+git status--------------------On branch master
+git add DBConnect.java------------moves from working area to staging area
+git rm --cached DBConnect.java-----revert back from staging area to working area
+git commit -a -m "Updated DBConnect.java file"-----a is to add -m is for commited msg 
+git branch----displays branches
+git remote add origin https://github.com/valtechtechnologies/linde.git ----------------remote ----remoterepo add-----adding   origin--remote name
+git remote -v----lists origin fetch and push
+git remote show origin----lists remote origin ,fetch and push
+git remote remove origin-----removes remote origin ,fetch and push
+git push origin master------pushes to origin remote name with master branch
+git log-----displays commit ids
+git log -2-----last 2 commit ids
+git show --pretty="" --name-only e4d263c0c23-------shows which file is committed
+git clean -n-----------preview the changes
+git clean -f-----------Removes new files from working area
+git reset filename------moves from staging area to working area
+git revert commit id-----revert the changes from that commit id

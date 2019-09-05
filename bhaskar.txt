@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 This is second file of bhaskar.txt
+=======
+This is bhaskar
+working in manyata
+mithun technologies
+>>>>>>> bugfix
